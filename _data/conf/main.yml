@@ -189,8 +189,8 @@ side_and_top_nav_buttons:
     icon: "fa fa-home"
   - post-list:
     icon: "fa fa-pencil-square-o"
-  # - archives:
-  #   icon: "fa fa-archive"
+  - archives:
+    icon: "fa fa-archive"
   # - projects:
   #   icon: "fa fa-code"
   # - links:
@@ -213,7 +213,7 @@ top_nav_brand_text_enable: true
 
 # set profile image
 # comment to disable the profile image
-side_nav_profile_img_path: /assets/img/posts/post_pic1.jpg
+side_nav_profile_img_path: /assets/img/profile/samsoon.png
 
 # this adds hover effect to bottom buttons
 side_nav_bottom_buttons_hover_effect: "hover-effect"

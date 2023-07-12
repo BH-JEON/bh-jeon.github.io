@@ -11,7 +11,7 @@ category: etc
 # multiple tag entries are possible
 tags: [github, etc]
 # thumbnail image for post
-img: ":2023/mokoko.jpg"
+img: ":2023-07-12-17-22-19.png"
 # disable comments on this page
 #comments_disable: true
 
