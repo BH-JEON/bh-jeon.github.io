@@ -20,12 +20,12 @@ google_font_precon_url: https://fonts.gstatic.com
 #               Language
 ###########################################################
 # need to match filename in _data/lang/[language].yml
-default_lng: en
+default_lng: ko
 
 # to prevent adding languages with no folder
 # single language disables language switch
 # language order is linked to array order
-language_switch_lang_list: [en, ja, pt, fr]
+language_switch_lang_list: [ko, en]
 
 # if the opened page is not in the user's language list,
 # suggest language(s) matching with the one(s) in browser language list and user language list.
@@ -161,7 +161,7 @@ side_nav_footer: true
 main_footer: true
 
 # this sets footer text position to fixed positioning. Always visible.
-main_fixed_footer: true
+main_fixed_footer: false
 
 # this centers footer text (if creative_commons is enabled and screen width is lower than 500px, it will be left aligned)
 main_footer_centered: true
@@ -189,12 +189,12 @@ side_and_top_nav_buttons:
     icon: "fa fa-home"
   - post-list:
     icon: "fa fa-pencil-square-o"
-  - archives:
-    icon: "fa fa-archive"
+  # - archives:
+  #   icon: "fa fa-archive"
   - projects:
-    icon: "fa fa-cog"
-  - links:
-    icon: "fa fa-link"
+    icon: "fa fa-code"
+  # - links:
+  #   icon: "fa fa-link"
   - about:
     icon: "fa fa-user-o"
 
